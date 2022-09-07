@@ -8,45 +8,47 @@
 </head>
 <body>
     <h1> Geog 370 - Homework 3: Map Projections. September 7, 2022 </h1>
+    <h2>Melanie Altenkirch</h2>
+    <h3> Through this assignment I analyze some of the varying world projections. Portraying the 3D surface of the Earth onto a 2D surface will cause some distortions to shape, area, distance, and/or direction. Most projections are variations of a cylindrical, conical, or azimuthal projection. Each projection will have differing strengths and weaknesses, such as preservation of shape, distance, or direction. 
+    </h3>
     <h1> Projection #1: WGS 84 </h1>
         <img src="./pngs/WGS84EPSG43266.png" width="1000 px">
-        <h3> The WGS84 Projection is the starting point in QGIS and the shape of the countries retain recognizability. 
+        <h3> The WGS84 Projection is the starting point in QGIS and the shape of the countries are recognizable to most people.The circles turn ellipsoid towards the bottom and top, which shows a distortion in area.
     </h3>
     <h1> Projection #2: Pseudo-Mercator</h1>
         <img src="./pngs/Pseudo-Mercator.png" width="1000px">
-        <h3>The Mercator Projection is special in that it retains direction, which is useful for navigators. ALthough the Mercator may not always direct the travelor to a route in the shortest distance, it may be used to accurately measure direction.
+        <h3>The Mercator Projection is special in that it retains direction, which is useful for navigators. Although the Mercator may not always direct the travelor to a route in the shortest distance, it may be used to accurately measure direction. The circles retain their circular shape at the North and South, but are much larger than the equatorial areas. The Mercator is a cylindrical projection around the equator. 
     </h3>
     <h1> Projection #3: Aitoff</h1>
         <img src="./pngs/WorldAitoff54043.png" width="1000px">
-        <h3>The Aitoff is a modified azimuthal projection of the world that optimizes presentation. 
+        <h3>The Aitoff is a modified azimuthal projection of the world that optimizes presentation. The map seems to extend across, and therefore the areas presented as furthest from the prime meridian and the equator are shown with the most distortion.
     </h3>
     <h1>Projection #4: Sphere-Winkel 1</h1>
         <img src="./pngs/Sphere Winkel 1.png" width="1000px">
-        <h3>This projection is pseudocylindrical and used to present with only moderate distortion in most areas.
+        <h3>This projection is pseudocylindrical and used to present with only moderate distortion in most areas. In contrast to the Aitoff projection, the northernmost and southernnmost latitudes are presented in straight lines, allowing for less distortion in area at the outermost longitudes. 
     </h3>
     <h1>Projection #5: World Equal Area</h1>
-      <h3><img src="./pngs/World Equal Area.png" width="1000px">
-        This cylindrical map is a good thematic map often used for presentation.
+        <img src="./pngs/World Equal Area.png" width="1000px">
+        <h3>This cylindrical map is a good thematic map often used for presentation. Because it is an equal area map, S=1. However, the northmost and southernmost latitudes are distorted greatly in shape and area. 
     </h3>
     <h1>Projection #6: World Equidistant Conic</h1>
         <img src="./pngs/WorldEquiConic.png" width="1000px">
-        <h3>This projection does well because distance is close to equal in each direction.
+        <h3>This projection does well because distance is close to equal in each direction. This projection serves well when distance has great priority over area, direction, or angles. 
     </h3>
-    <h1>Projection #7: North Pole Azimuthal Equidistant</h1>
-    <h3> 
+    <h1>Projection #7: North Pole Azimuthal Equidistant</h1> 
         <img src="./pngs/NorthPoleAzimuthal Equidistant.png" width="1000 px">
-        This projection also is equidistant and optimizes topographic features, navigation, and national agencies.
+        <h3>This azimuthal projection also is equidistant and optimizes topographic features, navigation, and national agencies. In this polar projection, meridians and parallels are divided equally.
      </h3>
      <h1>Projection #8: World Eckert VI </h1>
      <img src="./pngs/World Eckert VI.png" width="1000px">
-     <h3> This projection is pseudocylindrical and is a very good thematic map
+     <h3> This projection is pseudocylindrical. The parallels are straight lines, similar to the Sphere Winkel 1 projection, while the meridians are sinusoidal but seem to bulge outwards less than the Aitoff projection. The meridians are equally spaced, but the parallels are not.  
      </h3>
-     <h1> Projection #9:Sphere Loximuthal</h1>
+     <h1> Projection #9: Sphere Loximuthal</h1>
      <img src="./pngs/Sphere Loximuthal.png" width="1000px">
-     <h3> The Sphere Loximuthal Projection is good for navigation. 
+     <h3> The Sphere Loximuthal Projection is good for navigation.The outer circles are slightly ellipsoid and much larger in area than those at the equator. 
      </h3>
-     <h1> Projection #10: World Plate Carree
-        <img src="./pngs/World Plate Carree.png" width="1000 px"> </h1>
+     <h1> Projection #10: World Plate Carree</h1>
+        <img src="./pngs/World Plate Carree.png" width="1000 px">
      <h3>This cylindrical projection is one of the weaker projections for balancing preservation of distance, direction, shape, and area. However, it still remains recognizable.
     </h3>
 </body>
